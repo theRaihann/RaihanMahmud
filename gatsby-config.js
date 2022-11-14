@@ -1,13 +1,14 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: "/RaihanMahmud",
   siteMetadata: {
     title: 'Raihan Mahmud',
     description:
       'Raihan Mahmud Chowdhury is a machine learning enthusiast trying to solve real-world problems with the help of artificial intelligence.',
     siteUrl: 'https://raihanmahmud.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@theRaihann',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
